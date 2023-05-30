@@ -2,10 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
-* {
+html {
   padding: 0;
   margin: 0; 
-  
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
@@ -44,7 +43,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   border-bottom-left-radius: 79px;
-  background-color: #ffffff;
+  background-color: #fff;
   padding: 0 1rem 8.5rem 1.5rem;
   margin-bottom: 6px;
 }
@@ -91,5 +90,5 @@ body {
   
   .headline-container {
      padding: 2%;
-  }
+    }
 }
