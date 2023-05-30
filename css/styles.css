@@ -1,0 +1,88 @@
+/* general styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+* {
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body {
+    overflow-x: hidden;
+    background-color: #f7f7f9;
+}
+
+/* navigation styles */
+
+.tool-bar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding:1.2rem 1.5rem ;
+}
+.logo-icon {
+width: 3.2rem;
+}
+.menu-icon {
+    width: 32px;
+}
+
+/* Introduction styles */
+
+.headline-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    min-width: 100%;
+    background-image: url('/Backgrounds/header-shapes\ mobile.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-left-radius:79px;
+    background-color: #FFFFFF;
+    padding: 0 1rem 8.5rem 1.5rem;
+    margin-bottom: 6px;
+}
+.headline-container h1 {
+    align-items: center;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color:#172B4D;
+    padding: 5.5rem 1.5rem 0.7rem 0;
+}
+.headline-container p {
+    font-weight: 40px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+    align-items: center;
+    padding-bottom: 0.80rem;
+}
+.connection {
+    text-decoration: none;
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7F8CFF;
+}
+.connect-icon-container {
+    display: flex;
+    width: 170.17px;
+    height: 20px;
+    gap: 1.5rem;
+    padding-top: 1.5rem;
+}
+
+/* responsiveness */
+@media  screen and (min-width:768px) {
+    .menu-icon {
+        display: none;
+    }
+    .headline-container {
+        padding: 2%;
+    }
+}
+
+
+
