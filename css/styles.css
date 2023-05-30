@@ -6,7 +6,7 @@
   padding: 0;
   margin: 0; 
   box-sizing: border-box;
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -16,16 +16,16 @@ body {
 
 /* navigation styles */
 
-.tool-bar-container{
+.tool-bar-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #FFFFFF;
-  padding:1.2rem 1.5rem ;
+  background-color: #ffffff;
+  padding: 1.2rem 1.5rem;
 }
 
 .logo-icon {
- width: 3.2rem;
+  width: 3.2rem;
 }
 
 .menu-icon {
@@ -42,8 +42,8 @@ body {
   background-image: url('/Backgrounds/header-shapes\ mobile.png');
   background-repeat: no-repeat;
   background-size: cover;
-  border-bottom-left-radius:79px;
-  background-color: #FFFFFF;
+  border-bottom-left-radius: 79px;
+  background-color: #ffffff;
   padding: 0 1rem 8.5rem 1.5rem;
   margin-bottom: 6px;
 }
@@ -53,7 +53,7 @@ body {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  color:#172B4D;
+  color: #172B4d;
   padding: 5.5rem 1.5rem 0.7rem 0;
 }
 
@@ -71,7 +71,7 @@ body {
   font-weight: 500px;
   font-size: 16px;
   line-height: 24px;
-  color: #7F8Cff;
+  color: #7F8cff;
 }
 
 .connect-icon-container {
@@ -84,10 +84,10 @@ body {
 
 /* responsiveness */
 @media screen and (min-width: 768px) {
-    .menu-icon {
-   display: none;
+  .menu-icon {
+     display: none;
     }
-    .headline-container {
-   padding: 2%;
-    }
+  .headline-container {
+     padding: 2%;
+  }
 }
