@@ -61,7 +61,7 @@ This project is meant to run on all devices but this in particular is a mobile v
 
 ### Tech Stack **HTML and CSS**
 ### Key Features <a name="key-features"></a>
-- **Displays Hello Microverse**
+- **Contains information about me and the services I offer in the software development world**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
