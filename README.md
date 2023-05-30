@@ -104,7 +104,7 @@ To run the project, execute the following command:
 
 👤 **Asiimwe Mark**
 
-- GitHub: @As1imwe-Mark
+- GitHub: @[As1imwe-Mark](https://github.com/As1imwe-Mark)
 - Twitter:@markasiimwe
 - LinkedIn:AsiimweMark
 
