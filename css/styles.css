@@ -88,7 +88,7 @@ body {
     display: none;
   }
 
-  headline-container {
+  .headline-container {
     padding: 2%;
   }
-}
+ }
