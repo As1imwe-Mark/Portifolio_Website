@@ -57,6 +57,7 @@ After you're finished please remove all the comments and instructions!
 # 📖 [Portifolio Mobile Website ] <a name="about-project"></a>
 **Portifolio Mobile Website** is a project under microverse Module 1 block ! aimed at testing my knowledge about the concepts learnt and to help me build a website to display my work so that I stand out in the Job market.
 This project is meant to run on all devices but this in particular is a mobile version of it.
+
 ![image](https://github.com/As1imwe-Mark/Portifolio_toolbar_and_headline_section/assets/100065970/80b2bb40-54c8-4ebb-9ae9-7c30991bc7d9)
 
 ## 🛠 Built With **HTML and CSS**
