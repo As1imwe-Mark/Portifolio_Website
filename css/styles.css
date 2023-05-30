@@ -57,15 +57,17 @@ width: 3.2rem;
     line-height: 24px;
     color: #344563;
     align-items: center;
-    padding-bottom: 0.80rem;
+    padding-bottom: 0.8rem;
 }
+
 .connection {
     text-decoration: none;
     font-weight: 500px;
     font-size: 16px;
     line-height: 24px;
-    color: #7F8CFF;
+    color: #7F8Cff;
 }
+
 .connect-icon-container {
     display: flex;
     width: 170.17px;
@@ -75,14 +77,11 @@ width: 3.2rem;
 }
 
 /* responsiveness */
-@media  screen and (min-width:768px) {
+@media screen and (min-width: 768px) {
     .menu-icon {
         display: none;
-    }
+  }
     .headline-container {
         padding: 2%;
-    }
+  }
 }
-
-
-
