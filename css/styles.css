@@ -80,6 +80,7 @@ body {
   height: 20px;
   gap: 1.5rem;
   padding-top: 1.5rem;
+  list-style: none;
 }
 
 /* responsiveness */
