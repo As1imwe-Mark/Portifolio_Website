@@ -84,11 +84,10 @@ body {
 
 /* responsiveness */
 @media screen and (min-width: 768px) {
-  .menu-icon {
-      display: none;
+   .menu-icon {
+    display: none;
   }
-  
-  .headline-container {
-      padding: 2%;
+
+  headline-container {
+    padding: 2%;
   }
-}
