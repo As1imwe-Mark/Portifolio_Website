@@ -71,9 +71,8 @@ To run the project, execute the following command:
 👤 **Asiimwe Mark**
 
 - GitHub: @[As1imwe-Mark](https://github.com/As1imwe-Mark)
-- Twitter:@
-https://twitter.com/MarkAsiimwe?t=fPfXM4CV3OU6gKMNB1RGDA&s=09- LinkedIn:@
-https://www.linkedin.com/in/mark-asiimwe-0ab0611ab
+- Twitter:@[markasiimwe](https://twitter.com/MarkAsiimwe?t=fPfXM4CV3OU6gKMNB1RGDA&s=09)
+- LinkedIn:@[Mark Asiimwe](https://www.linkedin.com/in/mark-asiimwe-0ab0611ab)
 
 If you like this project like it and give me a follow.
 
