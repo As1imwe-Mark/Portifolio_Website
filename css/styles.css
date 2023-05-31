@@ -81,6 +81,208 @@ body {
   gap: 1.5rem;
   padding-top: 1.5rem;
   list-style: none;
+  padding-left: 0;
+}
+
+/* Works section */
+
+.works {
+  display: grid;
+  margin-top: 114px;
+  padding: 16px;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  background: #fff;
+}
+
+.works-card-container {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  background: #fff;
+}
+
+.card-snapshoot {
+  align-self: center;
+  width: 295px;
+  height: 220px;
+  border-radius: 8px;
+}
+
+.works-card-title {
+  align-self: flex-start;
+  margin-top: 12px;
+  margin-bottom: 20px;
+}
+
+.works-card-title span {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  max-width: 295px;
+}
+
+.works-client-info {
+  padding: 8px 0;
+  align-self: flex-start;
+  margin-top: 0;
+}
+
+.works-client-info .client {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #344563;
+}
+
+.works-client-info .role {
+  font-family: 'Poppins', sans-serif;
+
+  /* font-style: normal; */
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+}
+
+.works-client-info .year {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+}
+
+.works-client-info img {
+  margin: 0 12px;
+}
+
+.works-description {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+  margin-top: 20px;
+}
+
+.works-stacks {
+  list-style: none;
+  display: inline;
+  margin-left: -10;
+  padding-left: 0;
+}
+
+.works-stacks li {
+  display: inline-block;
+  line-height: 16px;
+}
+
+.works-stacks li a {
+  text-decoration: none;
+  padding: 4px 12px;
+  color: #6070ff;
+  font-weight: 500;
+  font-size: 12px;
+  background: #ebebff;
+  border-radius: 8px;
+  margin-right: 8px;
+  width: 49px;
+  height: 24px;
+  letter-spacing: 0.03em;
+}
+
+.more-projects {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 17px;
+  letter-spacing: 0.03em;
+  border: 1px solid #6070ff;
+  color: #6070ff;
+  width: 126px;
+  height: 48px;
+  margin: 24px 0;
+  border-radius: 8px;
+  padding: 12px;
+  background-color: white;
+}
+
+/* About myself section */
+
+.about_myself {
+  background: #fff;
+  border-top-right-radius: 79px;
+  margin-top: 114px;
+}
+
+.about_myself h2 {
+  align-items: center;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+  padding: 5.5rem 1.5rem 0.7rem 0;
+}
+
+.about_myself p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  align-items: center;
+  padding-bottom: 0.8rem;
+}
+
+.resume {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 17px;
+  letter-spacing: 0.03em;
+  border: 1px solid #6070ff;
+  color: #6070ff;
+  width: 162px;
+  height: 48px;
+  margin: 24px 0;
+  border-radius: 8px;
+  padding: 12px;
+  background-color: white;
+}
+
+.categories {
+  list-style: none;
+  margin: 0;
+  padding-bottom: 23px;
+  padding-left: 0;
+  align-items: center;
+}
+
+.categories li {
+  border-bottom: 2px solid #dfe1e6;
+  padding-bottom: 23px;
+  margin-top: 13px;
+}
+
+.categories button {
+  float: right;
+  font-size: 14px;
+  color: #acb7c3;
+  border: none;
+  background-color: white;
+  margin: 0;
+  font-weight: 500;
+}
+
+.categories span {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000;
 }
 
 /* responsiveness */
