@@ -51,7 +51,7 @@ In order to run this project you need: A web browser.
 
 Clone this repository to your desired folder:
 cd Module_1 
--git clone git@github.com/As1imwe-Mark/Portifolio_toolbar_and_headline_section.git
+-git clone git@github.com/As1imwe-Mark/Portifolio_Website.git
 
 ### Install
 
