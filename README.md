@@ -31,6 +31,10 @@
 This project is meant to run on all devices but this in particular is a mobile version of it.
 
 ![image](https://github.com/As1imwe-Mark/Portifolio_toolbar_and_headline_section/assets/100065970/80b2bb40-54c8-4ebb-9ae9-7c30991bc7d9)
+![image](https://github.com/As1imwe-Mark/Portifolio_Website/assets/100065970/fd0cfa20-fbb7-4cb9-bb05-49638f28bd40)
+![image](https://github.com/As1imwe-Mark/Portifolio_Website/assets/100065970/b5f2481d-99ca-42e1-bed6-d5ac9a892b9b)
+
+
 
 ## 🛠 Built With **HTML and CSS**
 
@@ -51,7 +55,7 @@ In order to run this project you need: A web browser.
 
 Clone this repository to your desired folder:
 cd Module_1 
--git clone git@github.com/As1imwe-Mark/Portifolio_toolbar_and_headline_section.git
+-git clone git@github.com/As1imwe-Mark/Portifolio_Website.git
 
 ### Install
 
