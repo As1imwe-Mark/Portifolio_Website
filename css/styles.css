@@ -73,6 +73,8 @@ body {
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
 .connect-icon-container {
@@ -83,6 +85,8 @@ body {
   padding-top: 1.5rem;
   list-style: none;
   padding-left: 0;
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
 /* Works section */
@@ -237,6 +241,7 @@ body {
   align-items: center;
   font-weight: 700;
   font-size: 40px;
+  margin: 0 24px;
   line-height: 52px;
   color: #172b4d;
   padding: 5.5rem 1.5rem 0.7rem 0;
@@ -249,6 +254,8 @@ body {
   color: #344563;
   align-items: center;
   padding-bottom: 0.8rem;
+  margin: 0 24px;
+ 
 }
 
 .resume {
@@ -264,6 +271,7 @@ body {
   border-radius: 8px;
   padding: 12px;
   background-color: white;
+  margin: 0 24px;
 }
 
 .categories {
@@ -272,6 +280,7 @@ body {
   padding-bottom: 23px;
   padding-left: 0;
   align-items: center;
+  margin: 0 24px;
 }
 
 .categories li {
@@ -327,6 +336,90 @@ body {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
+}
+
+/* Contact Section */
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #6070FF;
+  border-top-left-radius: 79px;
+} 
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url(../Backgrounds/contact\ form\ shapes-mobile.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+  background-position: right;
+}
+
+.contact-container h2 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #FFFFFF;
+  margin-top: 103px;
+  text-align: center;
+}
+
+.contact-section p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #EBEBFF;
+  margin: 12px 24px 0 24px;
+}
+
+.name {
+  background: #FFFFFF;
+  border: 1px solid #CFD8DC;
+  border-radius: 8px;
+  margin: 52px 24px 20px 24px;
+  width: 20.5rem;
+  height: 3rem;
+}
+
+.email {
+  background: #FFFFFF;
+  border: 1px solid #CFD8DC;
+  border-radius: 8px;
+  margin: 0 24px 18px 24px;
+  width: 20.5rem;
+  height: 3rem;
+}
+
+.contact-container .message {
+  border: 1px solid #CFD8DC;
+  border-radius: 8px;
+  width: 20.5rem;
+  height: 10.6rem;
+  margin-bottom: 22px;
+}
+
+input, textarea {
+  border: none;
+}
+
+form .submit {
+  padding-left: 0;
+  background: #FFFFFF;
+  border-radius: 8px;
+  padding: 12px 16px;
+  margin-bottom: 45px;
+  width: 142px;
+  height: 48px;
+  align-self: flex-start;
 }
 
 /* Button states */
