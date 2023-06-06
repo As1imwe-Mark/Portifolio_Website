@@ -411,7 +411,7 @@ input, textarea {
   border: none;
 }
 
-form .submit {
+.submit {
   padding-left: 0;
   background: #FFFFFF;
   border-radius: 8px;
@@ -420,6 +420,8 @@ form .submit {
   width: 142px;
   height: 48px;
   align-self: flex-start;
+  margin-left: 24px;
+  border: none;
 }
 
 /* Button states */
