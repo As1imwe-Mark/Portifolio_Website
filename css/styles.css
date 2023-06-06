@@ -389,6 +389,15 @@ body {
   width: 20.5rem;
   height: 3rem;
 }
+.name::placeholder {
+  padding: 15px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: #172B4D;
+}
 
 .email {
   background: #FFFFFF;
@@ -399,12 +408,32 @@ body {
   height: 3rem;
 }
 
+.email::placeholder {
+  padding: 15px;
+  color: #172B4D;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+}
+
 .contact-container .message {
   border: 1px solid #CFD8DC;
   border-radius: 8px;
   width: 20.5rem;
   height: 10.6rem;
   margin-bottom: 22px;
+}
+
+.message::placeholder{
+  color:#B3BAC5;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  padding: 0.9rem;
 }
 
 input, textarea {
@@ -416,13 +445,28 @@ input, textarea {
   background: #FFFFFF;
   border-radius: 8px;
   padding: 12px 16px;
-  margin-bottom: 45px;
   width: 142px;
   height: 48px;
   align-self: flex-start;
-  margin-left: 24px;
+  margin-left: 25px;
   border: none;
+  color: #6070FF;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
 }
+
+ .divider {
+  border: 0;
+  margin-top: 32px;
+  margin-bottom: 8px;
+  width: 134px;
+  height: 5px;
+  background: #0D151E;
+  border-radius: 10px;
+  align-self: center;}
 
 /* Button states */
 
@@ -471,3 +515,5 @@ button:visited {
     padding: 2%;
   }
 }
+
+
