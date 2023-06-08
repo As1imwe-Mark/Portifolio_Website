@@ -25,7 +25,9 @@ body {
 }
 
 .logo-icon {
+  animation: mover 2s 1 linear;
   width: 3.2rem;
+  -webkit-animation: mover 2s 1 linear;
 }
 
 .menu-icon {
@@ -55,6 +57,19 @@ body {
   line-height: 52px;
   color: #172b4d;
   padding: 5.5rem 1.5rem 0.7rem 0;
+  transition: all 1s forwards;
+  -webkit-transition: all 1s forwards;
+  -moz-transition: all 1s forwards;
+  -ms-transition: all 1s forwards;
+  -o-transition: all 1s forwards;
+}
+
+.headline-container h1:hover {
+  transform: scale(.7, .6);
+  -webkit-transform: scale(.7, .6);
+  -moz-transform: scale(.7, .6);
+  -ms-transform: scale(.7, .6);
+  -o-transform: scale(.7, .6);
 }
 
 .headline-container p {
@@ -105,11 +120,7 @@ body {
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   background: #fff;
-  transition: all 1s 1s forwards;
-}
-
-.works-card-container:hover {
-  transform: scale(1.5, 1.5);
+ 
 }
 
 .works {
@@ -512,6 +523,23 @@ button:active {
 
 button:visited {
   color: #5e6c84;
+}
+
+@keyframes mover {
+  0% {
+   transform: rotate(0deg);
+   -webkit-transform: rotate(0deg);
+   -moz-transform: rotate(0deg);
+   -ms-transform: rotate(0deg);
+   -o-transform: rotate(0deg);
+}
+100%{
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+}
 }
 
 /* responsiveness */
