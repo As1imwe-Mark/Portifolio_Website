@@ -28,7 +28,7 @@
 
 # 📖 [Portifolio Mobile Website ] <a name="about-project"></a>
 **Portifolio Mobile Website** is a project under microverse Module 1 block ! aimed at testing my knowledge about the concepts learnt and to help me build a website to display my work so that I stand out in the Job market.
-This project is meant to run on all devices but this in particular is a mobile version of it.
+This project is meant to run on all devices because it has both mobile and desktop versions.
 
 ![image](https://github.com/As1imwe-Mark/Portifolio_toolbar_and_headline_section/assets/100065970/80b2bb40-54c8-4ebb-9ae9-7c30991bc7d9)
 ![image](https://github.com/As1imwe-Mark/Portifolio_Website/assets/100065970/fd0cfa20-fbb7-4cb9-bb05-49638f28bd40)
@@ -69,6 +69,7 @@ To run the project, execute the following command:
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **[Add some Javascript to make it more responsive.]**
+- [ ]  **Add list of projects**
 
 ## 👥 Authors <a name="authors"></a>
 
@@ -77,6 +78,10 @@ To run the project, execute the following command:
 - GitHub: @[As1imwe-Mark](https://github.com/As1imwe-Mark)
 - Twitter:@[markasiimwe](https://twitter.com/MarkAsiimwe?t=fPfXM4CV3OU6gKMNB1RGDA&s=09)
 - LinkedIn:@[Mark Asiimwe](https://www.linkedin.com/in/mark-asiimwe-0ab0611ab)
+ 
+  **Yuliana Velez Rodriguez**
+  - GitHub: @[Yulianav09](https://github.com/Yulianav09)
+  - LinkedIn: [Yuliana Velez Rodriguez](https://www.linkedin.com/in/yuliana-velez-rodriguez/)
 
 If you like this project like it and give me a follow.
 
