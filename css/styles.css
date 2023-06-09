@@ -251,6 +251,7 @@ body {
   font-size: 12px;
   background: #ebebff;
   border-radius: 8px;
+
   /* margin-right: 8px; */
   max-width: 49px;
   height: 24px;
@@ -612,7 +613,6 @@ button:visited {
     align-self: center;
     width: 63%;
     padding-top: 150px;
-    
   }
 
   .headline-container h1 {
@@ -636,7 +636,7 @@ button:visited {
 
   #works {
     display: flex;
-   align-items: center;
+    align-items: center;
     width: 100%;
   }
 
@@ -702,8 +702,6 @@ button:visited {
 
   .works-client-info_desktop .role {
     font-family: 'Poppins', sans-serif;
-
-    /* font-style: normal; */
     font-weight: 600;
     font-size: 13px;
     line-height: 16px;
@@ -738,7 +736,6 @@ button:visited {
     font-size: 12px;
     background: #ebebff;
     border-radius: 8px;
-    /* margin-right: 8px; */
     max-width: 105px;
     letter-spacing: 0.03em;
     text-align: center;
@@ -798,7 +795,7 @@ button:visited {
 
   .works_details {
     width: 50%;
-    margin:24px 22px 7px 22px;
+    margin: 24px 22px 7px 22px;
   }
 
   /* About myself section */
