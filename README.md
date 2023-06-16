@@ -21,6 +21,7 @@
     - [Install](#install)
     - [Usage](#usage)
     - [LiveDemo](#livedemo)
+    - [Project_presentation](#project_presentation)
   - [🔭 Future Features ](#-future-features-)
   - [👥 Authors ](#-authors-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
@@ -73,6 +74,9 @@ To run the project, execute the following command:
 ### LiveDemo
 [Live Demo] You can see the live Demo of the website here https://as1imwe-mark.github.io/Portifolio_Website/
 
+### Project_presentation
+[Project Presentation] You can see the live presentation of the key concepts taken into account while creating this project here: https://www.loom.com/share/9e04644145184fa7940987726b7b64de?sid=2cc65aba-df82-4de7-a138-13636487cb45
+
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **[Add some Javascript to make it more responsive.]**
@@ -86,10 +90,6 @@ To run the project, execute the following command:
 - Twitter:@[markasiimwe](https://twitter.com/MarkAsiimwe?t=fPfXM4CV3OU6gKMNB1RGDA&s=09)
 - LinkedIn:@[Mark Asiimwe](https://www.linkedin.com/in/mark-asiimwe-0ab0611ab)
  
-  **Yuliana Velez Rodriguez**
-  - GitHub: @[Yulianav09](https://github.com/Yulianav09)
-  - LinkedIn: [Yuliana Velez Rodriguez](https://www.linkedin.com/in/yuliana-velez-rodriguez/)
-
 If you like this project like it and give me a follow.
 
 
