@@ -7,6 +7,7 @@ html {
   margin: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -16,6 +17,11 @@ body {
   padding: 0;
 
   /* background-color: rgba(128, 128, 128, 0.358); */
+}
+
+main {
+  padding: 3px;
+  overflow-x: hidden;
 }
 
 /* navigation styles */
@@ -247,6 +253,14 @@ body {
   line-height: 16px;
 }
 
+.mobile a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+}
+
 .works-stacks li a {
   text-decoration: none;
   padding: 4px 12px;
@@ -284,7 +298,7 @@ body {
 
 /* About myself section */
 
-.about_myself {
+#about_myself {
   background: #fff;
   border-top-right-radius: 79px;
   margin-top: 114px;
@@ -295,7 +309,7 @@ body {
   flex-direction: column;
 }
 
-.about_myself h2 {
+#about_myself h2 {
   align-items: center;
   font-weight: 700;
   font-size: 40px;
@@ -305,7 +319,7 @@ body {
   padding: 5.5rem 1.5rem 0.7rem 0;
 }
 
-.about_myself p {
+#about_myself p {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -397,9 +411,43 @@ button {
   border-radius: 50%;
 }
 
+/* menu toggle section */
+.mobile {
+  display: block;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  background: #6070ff;
+  mix-blend-mode: multiply;
+  backdrop-filter: blur(9px);
+  z-index: 9999;
+}
+
+.mobile ul {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.mobile ul li {
+  list-style: none;
+}
+
+.menu_close {
+  float: right;
+  margin-right: 20px;
+  margin-top: 20px;
+  background-color: transparent;
+  border: 2px solid #67798e;
+  color: white;
+  pointer-events: none;
+}
+
 /* Contact Section */
 
-.contact-section {
+#contact-section {
   background: url(../Backgrounds/contact\ form\ shapes-mobile.png);
   background-size: contain;
   background-repeat: no-repeat;
@@ -418,7 +466,7 @@ button {
   align-items: center;
 }
 
-.contact-section h2 {
+#contact-section h2 {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -429,7 +477,7 @@ button {
   text-align: center;
 }
 
-.contact-section p {
+#contact-section p {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -601,6 +649,10 @@ button:visited {
 
   .desktop_menu {
     display: block;
+  }
+
+  .menu_close {
+    display: none;
   }
 
   .desktop_menu ul {
@@ -830,7 +882,7 @@ button:visited {
 
   /* About myself section */
 
-  .about_myself {
+  #about_myself {
     width: 100%;
     display: flex;
     background: #fff;
@@ -845,11 +897,11 @@ button:visited {
     justify-content: space-between;
   }
 
-  .about_myself h2 {
+  #about_myself h2 {
     color: #091e42;
   }
 
-  .about_myself p {
+  #about_myself p {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -920,7 +972,7 @@ button:visited {
 
   /* Contact section */
 
-  .contact-section {
+  #contact-section {
     background: url(../Backgrounds/contact\ form\ background\ shapes.png);
     width: 100%;
     height: 846px;
@@ -929,7 +981,7 @@ button:visited {
     margin-top: 0;
   }
 
-  .contact-section p {
+  #contact-section p {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
