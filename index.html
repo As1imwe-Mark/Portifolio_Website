@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Portfolio</title>
 </head>
 <body>
@@ -17,13 +18,16 @@
             <a  class="logo-icon" href="#"><img src="./Icons/logo.png" alt="logo"></a>
             <div class="mobile_menu
             ">
-                <a  class="menu-icon" href="#"><img src="./Icons/menu.png" alt=""></a>
+                <a  class="menu-icon" href="#"><img src="./Icons/menu.png" id="menu-icon"  alt=""></a>
             </div>
-           <nav class="desktop_menu" aria-label="desktop_nav">
+           <nav class="desktop_menu " aria-label="desktop_nav" id="mobile">
             <ul>
-                <li><a href="">Portifolio</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Contact</a></li>
+               <li><button type="button" class="menu_close"><span class="material-symbols-outlined">
+                close
+                </span></button></li>
+                <li><a href="#works">Portifolio</a></li>
+                <li><a href="#about_myself">About</a></li>
+                <li><a href="#contact-section">Contact</a></li>
             </ul>
         </nav>
             </div>     
@@ -174,7 +178,7 @@
     </section>
 
     <!-- About myself section -->
-    <section class="about_myself">
+    <section id="about_myself">
         <div class="about_myself_container">
             <div class="about_myself_desktop_col1">
                 <h2>About Myself</h2>
@@ -225,7 +229,7 @@
     </section>
 
     <!-- Contact Section -->
-    <section class="contact-section">
+    <section id="contact-section">
             <h2>Contact me</h2>
             <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. 
                 I'd love to help with it!</p>
@@ -244,5 +248,6 @@
         <div class="divider"></div>
     </section>
 </main>
+<script src="main.js"></script>
 </body>
 </html>
