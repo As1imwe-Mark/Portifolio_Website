@@ -616,8 +616,6 @@ textarea {
   padding: 5px;
   z-index: 99999;
   background-color: #c1c7d0;
-
-  /* mix-blend-mode: multiply; */
 }
 
 .pop_up {
