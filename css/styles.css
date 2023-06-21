@@ -135,36 +135,56 @@ main {
   flex-direction: column;
 }
 
-.card-snapshoot-1 {
+.card-snapshoot_1 {
   align-self: center;
-  width: 295px;
-  background-image: url(../images/Snapshoot\ Portfolio.png);
+  max-width: 295px;
   height: 220px;
   border-radius: 8px;
+}
+
+.card-snapshoot_2 {
+  display: block;
+  align-self: center;
+  width: 295px;
+  height: 220px;
+  border-radius: 8px;
+}
+
+.card-snapshoot_1 img {
+  /* display: block; */
+  max-width: 100%;
+}
+
+.card-snapshoot_3 {
+  display: block;
+  align-self: center;
+  width: 295px;
+  height: 220px;
+  border-radius: 8px;
+}
+
+.card-snapshoot_4 {
+  display: block;
+  align-self: center;
+  width: 295px;
+  height: 220px;
+  border-radius: 8px;
+}
+
+.card-snapshoot-1 {
+  display: none;
 }
 
 .card-snapshoot-2 {
-  align-self: center;
-  width: 295px;
-  background-image: url(../images/Snapshoot\ Portfolio2.png);
-  height: 220px;
-  border-radius: 8px;
+  display: none;
 }
 
 .card-snapshoot-3 {
-  align-self: center;
-  width: 295px;
-  background-image: url(../images/Snapshoot\ Portfolio3.png);
-  height: 220px;
-  border-radius: 8px;
+  display: none;
 }
 
 .card-snapshoot-4 {
-  align-self: center;
-  width: 295px;
-  background-image: url(../images/Snapshoot\ Portfolio4.png);
-  height: 220px;
-  border-radius: 8px;
+  display: none;
 }
 
 .works-card-title {
@@ -294,6 +314,10 @@ main {
   border-radius: 8px;
   padding: 12px;
   background-color: white;
+}
+
+.pop_up .works-card-title h2 {
+  margin: 0;
 }
 
 /* About myself section */
@@ -578,6 +602,90 @@ textarea {
   align-self: center;
 }
 
+.pop_up-container {
+  display: none;
+  position: fixed;
+  top: 0;
+
+  /* overflow-x: hidden; */
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 5px;
+  z-index: 99999;
+  background-color: #c1c7d0;
+}
+
+.pop_up {
+  box-sizing: border-box;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  gap: 12px;
+
+  /* position: absolute; */
+
+  /* width: 343px; */
+
+  /* height: 713px; */
+
+  /* left: auto; */
+
+  /* top: 60px; */
+  background-color: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  z-index: 9999;
+
+  /* overflow-x: hidden; */
+}
+
+.open_pop-up {
+  display: block;
+}
+
+.pop_up .works-stacks {
+  margin-top: 0;
+  align-self: flex-start;
+}
+
+.pop_up .works-card-title {
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.pop_btns {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.pop_btns span {
+  font-size: 16px;
+}
+
+.pop_btns .git {
+  display: flex;
+  gap: 3px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.close {
+  position: absolute;
+  right: 15%;
+  top: 3%;
+  background-color: transparent;
+  border: 2px solid #67798e;
+
+  /* pointer-events: none; */
+  border: 0;
+}
+
 /* Button states */
 
 .modal-view-arrow {
@@ -828,10 +936,7 @@ button:visited {
   }
 
   .card-snapshoot-1 {
-    background-image: url(../images/snap-1.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: 100%;
+    display: block;
     width: 50%;
     height: 448px;
     border-radius: 8px;
@@ -840,10 +945,7 @@ button:visited {
   }
 
   .card-snapshoot-2 {
-    background: url(../images/snap-2.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: 100%;
+    display: block;
     width: 50%;
     height: 448px;
     border-radius: 8px;
@@ -852,10 +954,7 @@ button:visited {
   }
 
   .card-snapshoot-3 {
-    background: url(../images/snap-3.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: 100%;
+    display: block;
     width: 50%;
     height: 448px;
     border-radius: 8px;
@@ -864,20 +963,37 @@ button:visited {
   }
 
   .card-snapshoot-4 {
-    background: url(../images/snap-4.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: 100%;
-    width: 50%;
+    display: block;
+    max-width: 50%;
     height: 448px;
     border-radius: 8px;
     margin: 22px;
     padding: 0;
   }
 
+  .card-snapshoot_1 {
+    display: none;
+  }
+
+  .card-snapshoot_2 {
+    display: none;
+  }
+
+  .card-snapshoot_3 {
+    display: none;
+  }
+
+  .card-snapshoot_4 {
+    display: none;
+  }
+
   .works_details {
     width: 50%;
     margin: 24px 22px 7px 22px;
+  }
+
+  .pop_up .works-card-title h2 {
+    margin: 0;
   }
 
   /* About myself section */
@@ -998,5 +1114,94 @@ button:visited {
 
   .divider {
     display: none;
+  }
+
+  /* pop up window */
+
+  .pop_up-container {
+    position: fixed;
+    padding: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99999;
+    background-color: #c1c7d0;
+    overflow-y: scroll;
+  }
+
+  .pop_up {
+    box-sizing: border-box;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 12px;
+    background-color: #fff;
+    border: 1px solid #dfe1e6;
+    border-radius: 16px;
+    z-index: 9999;
+    width: 80.3%;
+  }
+
+  .pop-info {
+    display: flex;
+    gap: 10px;
+  }
+
+  .pop_up .works-stacks {
+    margin-top: 0;
+    align-self: flex-start;
+  }
+
+  .pop_up .works-client-info {
+    display: flex;
+    align-self: flex-start;
+    float: left;
+  }
+
+  .pop_up .works-card-title {
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+  }
+
+  .pop_up .snap {
+    width: 80%;
+    text-align: center;
+    align-self: center;
+  }
+
+  .snap img {
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+    align-self: center;
+  }
+
+  .pop_btns {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pop_btns span {
+    font-size: 16px;
+  }
+
+  .close {
+    position: absolute;
+    right: 12%;
+    top: 5%;
+    background-color: transparent;
+    border: 0;
+  }
+
+  .close:hover {
+    padding: 0;
+    background: none;
+    color: black;
   }
 }
