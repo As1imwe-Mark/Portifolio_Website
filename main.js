@@ -127,10 +127,12 @@ projects.forEach((card) => {
 const works = document.getElementById('works');
 works.innerHTML = projectHtml;
 
-function Selection(e) {
-  if (e.target.id !== null) {
-    const item = projects.find((project) => project.id === e.target.id);
-    if (item !== undefined) {
+function Selection (e){
+  if(e.target.id!==null){
+    const item=projects.find((project)=>{
+      return project.id==e.target.id
+    })
+    if(item!==undefined){
       const PopHtml = ` <div class="pop_up">
       <div class="works-card-title">
       <button type="button" class="close" id="pop-close"><span class="material-symbols-outlined">
@@ -172,18 +174,18 @@ function Selection(e) {
         </div>
       </div>
       </div>
-  </div>`;
-      document.querySelector('.pop_up-container').innerHTML = PopHtml;
-      openPop();
-      const closePop = document.querySelector('#pop-close');
-      closePop.addEventListener('click', () => {
-        popUp.classList.remove('open_pop-up');
+  </div>`
+  document.querySelector('.pop_up-container').innerHTML=PopHtml;
+      openPop ();
+      const closePop =document.querySelector('#pop-close')
+      closePop.addEventListener('click',()=>{
+        popUp.classList.remove('open_pop-up')
       });
     }
   }
 }
-works.addEventListener('click', Selection);
-const popUp = document.querySelector('.pop_up-container');
-function openPop() {
+works.addEventListener('click',Selection);
+const popUp =document.querySelector('.pop_up-container')
+function openPop (){
   popUp.classList.add('open_pop-up');
 }
