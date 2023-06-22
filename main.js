@@ -1,5 +1,3 @@
-// const { isInteger } = require("lodash");
-
 const menu = document.querySelector('#mobile');
 const openBtn = document.querySelector('#menu-icon');
 const closeBtn = document.querySelector('.menu_close');
@@ -31,7 +29,6 @@ const projects = [
     year_d: '2015',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     description_d: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    // stacks:['HTML','CSS','Ruby On Rails','JavaScript']
   },
   {
     id: 2,
@@ -47,8 +44,6 @@ const projects = [
     year_d: '2015',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     description_d: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends..',
-    // reverse: "right",
-    // reverse_d:"right",
   },
   {
     id: 3,
@@ -79,8 +74,6 @@ const projects = [
     year_d: '2018',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     description_d: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends..',
-    // reverse: "right",
-    // reverse_d:"right",
   }
 ];
 let projectHtml = '';
@@ -120,8 +113,6 @@ projects.forEach((card) => {
     </div>
 </div>
 </div>`;
-
-  //  console.log(projectHtml)
 });
 
 const works = document.getElementById('works');
@@ -196,8 +187,7 @@ const form =document.getElementById('contact_form');
 const error=document.getElementById('error');
 const email=document.getElementById('email');
 
-form.addEventListener('submit',(e)=>{
-     e.preventDefault();
+form.addEventListener('submit',()=>{
     validation();
    });
   
