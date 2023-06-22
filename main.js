@@ -187,8 +187,11 @@ const form =document.getElementById('contact_form');
 const error=document.getElementById('error');
 const email=document.getElementById('email');
 
-form.addEventListener('submit',()=>{
-    validation();
+form.addEventListener('submit',(e)=>{
+   if(!validation()){
+    e.preventDefault()
+    return false;
+   }
    });
   
 function validation (){
