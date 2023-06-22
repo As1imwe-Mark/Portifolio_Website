@@ -12,8 +12,8 @@
 
 - [📗 Table of Contents](#-table-of-contents)
 - [📖 \[Portifolio Mobile Website \] ](#-portifolio-mobile-website--)
-  - [🛠 Built With **HTML and CSS**](#-built-with-html-and-css)
-    - [Tech Stack **HTML and CSS**](#tech-stack-html-and-css)
+  - [🛠 Built With **HTML, CSS and JavaScript**](#-built-with-html-and-css)
+    - [Tech Stack **HTML, CSS and JavaScript**](#tech-stack-html-and-css)
     - [Key Features ](#key-features-)
   - [LiveDemo](#livedemo)
   - [💻 Getting Started ](#-getting-started-)
