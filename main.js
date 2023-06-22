@@ -187,6 +187,7 @@ const form =document.getElementById('contact_form');
 const error=document.getElementById('error');
 const email=document.getElementById('email');
 const name_=document.getElementById('name');
+const message=document.getElementById('message');
 
 form.addEventListener('submit',(e)=>{
    if(!validation()){
@@ -213,18 +214,13 @@ function validation (){
 
   // Loading saved Data
   
-  let user=JSON.parse(localStorage.getItem('user'));
-  if(user){
-    name_.value=user.Name;
-    email.value=user.Email;
-  }
-  
   // Adding Data
 
   function addData (){
     let user ={
       Name:name_.value.trim(),
       Email:email.value.trim(),
+      Message:message.value
     }
     localStorage.setItem('user', JSON.stringify(user));
   }
