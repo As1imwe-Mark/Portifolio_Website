@@ -186,11 +186,16 @@ function openPop (){
 const form =document.getElementById('contact_form');
 const error=document.getElementById('error');
 const email=document.getElementById('email');
+const name_=document.getElementById('name');
+const message=document.getElementById('message');
 
 form.addEventListener('submit',(e)=>{
    if(!validation()){
     e.preventDefault()
     return false;
+   }
+   if(addData()) {
+  e.preventDefault();
    }
    });
   
@@ -205,3 +210,28 @@ function validation (){
       return true;
     }
   }
+
+  // Storing Data In LocalStorage
+
+  // Loading saved Data
+  let user=JSON.parse(localStorage.getItem('user'));
+  if(user){
+    name_.value=user.Name;
+    email.value=user.Email;
+    message.value=user.Message;
+  }
+  // Adding Data
+
+  function addData (){
+    let user ={
+      Name:name_.value.trim(),
+      Email:email.value.trim(),
+      Message:message.value
+    }
+    localStorage.setItem('user', JSON.stringify(user));
+  }
+
+
+
+
+  
