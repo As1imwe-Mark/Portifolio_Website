@@ -201,3 +201,14 @@ form.addEventListener('submit',(e)=>{
     validation();
    });
   
+function validation (){
+    const mail=email.value.trim();
+    if(mail!==mail.toLowerCase()){
+      error.style.display='block';
+      return false;
+    }
+     else {
+      error.style.display='none';
+      return true;
+    }
+  }
