@@ -189,3 +189,26 @@ const popUp =document.querySelector('.pop_up-container')
 function openPop (){
   popUp.classList.add('open_pop-up');
 }
+
+// Form Validation
+
+const form =document.getElementById('contact_form');
+const error=document.getElementById('error');
+const email=document.getElementById('email');
+
+form.addEventListener('submit',(e)=>{
+     e.preventDefault();
+    validation();
+   });
+  
+function validation (){
+    const mail=email.value.trim();
+    if(mail!==mail.toLowerCase()){
+      error.style.display='block';
+      return false;
+    }
+     else {
+      error.style.display='none';
+      return true;
+    }
+  }
