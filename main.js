@@ -194,8 +194,9 @@ form.addEventListener('submit',(e)=>{
     e.preventDefault()
     return false;
    }
-   if(addData())
+   if(addData()) {
   e.preventDefault();
+   }
    });
   
 function validation (){
