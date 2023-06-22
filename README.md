@@ -25,7 +25,8 @@
   - [🔭 Future Features ](#-future-features-)
   - [👥 Authors ](#-authors-)
   - [Contributions](#contributions)
-  - [🙏 Acknowledgments ](#-acknowledgments)
+  - [Support](#support)
+  - [🙏 Acknowledgments](#acknowledgments)
   - [📝 License ](#-license-)
 
 
@@ -98,6 +99,8 @@ I would like to thank the following for their contributions to the success of th
  👤 **Yuliana Velez Rodriguez**
 - GitHub: [@Yuliana09](https://github.com/Yulianav09)
 - LinkedIn: [Yuliana Velez Rodriguez](https://www.linkedin.com/in/yuliana-velez-rodriguez/)
+
+## ⭐️ Show your support <a name="support"></a>
  
 If you like this project like it and give me a follow.
 
