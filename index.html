@@ -116,17 +116,20 @@
             <h2>Contact me</h2>
             <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. 
                 I'd love to help with it!</p>
-                    <form action="https://formspree.io/f/xgebjyrj" method="POST" class="contact-form">
+                    <form action="https://formspree.io/f/xgebjyrj" method="POST" class="contact-form" id="contact_form">
                         <div >
                             <input type="text" name="userName" max="30" placeholder="Lorem Ipsum" required class="name">
                         </div>
                         <div >
-                            <input type="email" name="email" placeholder="loremipsum@gmail.com" required class="email">
+                            <input type="email" name="email" placeholder="loremipsum@gmail.com" required class="email" id="email">
                         </div>
                         <div>
                             <textarea name="message" id="" cols="30" rows="10" placeholder="Write your message here..."  maxlength="500" required class="message"></textarea>
                         </div>
-                        <button type="submit" class="submit">Get in touch</button>
+                        <div class="button_container">
+                            <small id="error" class="error">Not sent, Invalid email!</small>
+                            <button type="submit" class="submit">Get in touch</button>
+                        </div>
                     </form>
         <div class="divider"></div>
     </section>

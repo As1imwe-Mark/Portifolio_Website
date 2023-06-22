@@ -574,6 +574,24 @@ textarea {
   border: none;
 }
 
+.button_container {
+  width: 20.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 0;
+}
+
+.error {
+  display: none;
+  align-self: center;
+  margin-top: -10px;
+  color: white;
+  background-color: rgba(255, 0, 0, 0.562);
+}
+
 .submit {
   background: #fff;
   border-radius: 8px;
