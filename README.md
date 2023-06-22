@@ -40,9 +40,9 @@ This project is meant to run on all devices because it has both mobile and deskt
 
 
 
-## 🛠 Built With **HTML and CSS**
+## 🛠 Built With **HTML, CSS and JavaScript**
 
-### Tech Stack **HTML and CSS**
+### Tech Stack **HTML, CSS and JavaScript**
 ### Key Features <a name="key-features"></a>
 - **Contains information about me and the services I offer in the software development world**
 
