@@ -20,7 +20,7 @@ const projects = [
   {
     id: 1,
     image: './images/Snapshoot Portfolio.png',
-    image_d: '../images/snap-1.png',
+    image_d: './images/snap-1.png',
     title_d: 'Tonic',
     title: 'Tonic',
     client: 'CANOPY',
@@ -36,7 +36,7 @@ const projects = [
   {
     id: 2,
     image: './images/Snapshoot Portfolio2.png',
-    image_d: '../images/snap-2.png',
+    image_d: './images/snap-2.png',
     title: 'Multiple-Post Stories',
     title_d: 'Multiple-Post Stories',
     client: 'CANOPY',
@@ -53,7 +53,7 @@ const projects = [
   {
     id: 3,
     image: './images/Snapshoot Portfolio3.png',
-    image_d: '../images/snap-3.png',
+    image_d: './images/snap-3.png',
     title: 'Tonic',
     title_d: 'Facebook 360',
     client: 'CANOPY',
@@ -68,7 +68,7 @@ const projects = [
   {
     id: 4,
     image: './images/Snapshoot Portfolio4.png',
-    image_d: '../images/snap-4.png',
+    image_d: './images/snap-4.png',
     title: 'Multiple-Post Stories',
     title_d: 'Uber Navigation',
     client: 'CANOPY',
